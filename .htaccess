@@ -1,0 +1,5 @@
+AddDefaultCharset utf-8
+Options -Indexes +ExecCGI
+AddHandler cgi-script .cgi .pl
+
+#ErrorDocument 404 http://localhost/Projects/___/errors/404.php

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Page-1 transition with barba.js</title>
+	<link rel="icon" href="img/icon.jpg" type="icon/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+	<!-- div .wrapp -->
+	<div class="wrapp" data-barba="wrapper">
+
+		<div class="load-site">
+			<span class="load-site__bg"></span>
+			<div class="load-site__bl">
+				<span class="load-site__img">
+					<img src="img/ghost-w.png" alt="">
+					<img src="img/pumpkin.png" alt="">
+					<img src="img/ghost-w.png" alt="">
+				</span>
+				<div class="load__bl">
+					<span class="loading">Loading</span>
+					<span class="loading-completed">Loading completed</span>
+					<span class="loading-txt">Happy Halloween</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="preloader">
+			<span class="preloader__bg"></span>
+			<div class="preloader__wrapp">
+				<img class="preloader__img" src="img/ghost-w.png" alt="">
+				<img class="preloader__img" src="img/pumpkin.png" alt="">
+				<img class="preloader__img" src="img/ghost-w.png" alt="">
+				<span class="preloader__txt">Happy Halloween</span>
+			</div>
+		</div>
+
+		<main class="main" data-barba="container" data-barba-namespace="home">
+
+			<section class="section first_page">
+
+				<span class="section__bg section__bg-1"></span>
+				<img class="section__bg-el bg_img1" src="img/web1.png" alt="">
+				<img class="section__bg-el bg_img2" src="img/web2.png" alt="">
+				<img class="section__bg-el bg_img3" src="img/web1.png" alt="">
+				<img class="section__bg-el bg_img4" src="img/web2.png" alt="">
+
+				<div class="section__bl">
+
+					<div class="content">
+
+						<div class="section__wrapp">
+
+							<div class="section__text">
+								<h1 class="title">
+									<span>Halloween</span>
+									<img class="title__img" src="img/bat.png" alt="">
+								</h1>
+								<p class="descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti et
+									earum culpa! Minus consectetur esse harum. Hic, explicabo maxime veniam vitae porro
+									nostrum eius, fugiat quos earum qui amet laborum.</p>
+								<a href="index2.html" class="btn-link link_f">Next page <img src="img/ghost-b.png"
+										alt=""><img src="img/ghost-w.png" alt=""></a>
+							</div>
+							<div class="section__img">
+								<img src="img/img1.jpg" alt="" data-fancybox="gallery" data-src="img/img1.jpg">
+								<img src="img/img2.jpg" alt="" data-fancybox="gallery" data-src="img/img2.jpg">
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+		</main>
+	</div>
+	<!-- /div .wrapp END -->
+	<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<script src="js/js.js"></script>
+</body>
+
+</html>
